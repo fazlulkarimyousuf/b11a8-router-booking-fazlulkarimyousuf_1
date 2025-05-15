@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Amelia Hart",
+    "specialization": "Cardiologist",
+    "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=800&q=80",
+    "rating": 4.9,
+    "experience": "12 years"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Leo Martin",
+    "specialization": "Dermatologist",
+    "image": "https://images.unsplash.com/photo-1603399861984-c43f6c3e0b48?auto=format&fit=crop&w=800&q=80",
+    "rating": 4.7,
+    "experience": "9 years"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Priya Kapoor",
+    "specialization": "Pediatrician",
+    "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=800&q=80",
+    "rating": 5.0,
+    "experience": "10 years"
+  },
+  {
+    "id": 4,
+    "name": "Dr. Ethan Wright",
+    "specialization": "Neurologist",
+    "image": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=800&q=80",
+    "rating": 4.6,
+    "experience": "8 years"
+  },
+  {
+    "id": 5,
+    "name": "Dr. Hana Lee",
+    "specialization": "Orthopedic Surgeon",
+    "image": "https://images.unsplash.com/photo-1550831107-1553da8c8464?auto=format&fit=crop&w=800&q=80",
+    "rating": 4.8,
+    "experience": "11 years"
+  },
+  {
+    "id": 6,
+    "name": "Dr. Marcus Silva",
+    "specialization": "General Physician",
+    "image": "https://images.unsplash.com/photo-1622253692010-33394f1e1b17?auto=format&fit=crop&w=800&q=80",
+    "rating": 4.5,
+    "experience": "7 years"
+  }
+]

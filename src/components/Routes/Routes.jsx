@@ -5,6 +5,7 @@ import {
 import Root from '../Root/Root';
 import Home from '../../Page/Home/Home';
 import ErrorPage from '../../Page/ErrorPage/ErrorPage';
+import Card from '../../Page/Card/Card';
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -15,7 +16,7 @@ export const router = createBrowserRouter([
         index: true,
         path: "/",
         Component: Home,
-      }
+      },
     ]
   },
 ]);

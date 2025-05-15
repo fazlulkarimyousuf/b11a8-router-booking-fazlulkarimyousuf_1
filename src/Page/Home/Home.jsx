@@ -1,4 +1,5 @@
 import React from 'react';
+import Card from '../Card/Card';
 
 const Home = () => {
     return (
@@ -23,7 +24,9 @@ const Home = () => {
         <img src="https://i.ibb.co/MxZ8MzLK/banner-img-1.png" alt="" />
         </div>
       </div>
+      <Card></Card>
     </section>
+    
     );
 };
 

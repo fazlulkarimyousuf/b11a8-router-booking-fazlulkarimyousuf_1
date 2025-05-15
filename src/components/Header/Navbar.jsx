@@ -1,6 +1,12 @@
 import React from 'react';
 
 const Navbar = () => {
+  const links = <>
+    <li><a>Home</a></li>
+    <li><a>My-Bookings</a></li>
+    <li><a>Blogs</a></li>
+    <li><a>Contact Us</a></li> 
+  </>
     return (
         <div>
             <div className="navbar bg-base-100 shadow-sm">
@@ -12,20 +18,18 @@ const Navbar = () => {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-            <li><a>Home</a></li>
+            {/* <li><a>Home</a></li>
             <li><a>My-Bookings</a></li>
             <li><a>Blogs</a></li>
-            <li><a>Contact Us</a></li>
+            <li><a>Contact Us</a></li> */}
+            {links}
       </ul>
     </div>
     <a href="http://localhost:5173/"><a className="btn btn-ghost text-xl">Phudu</a></a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-            <li><a>Home</a></li>
-            <li><a>My-Bookings</a></li>
-            <li><a>Blogs</a></li>
-            <li><a>Contact Us</a></li>
+          {links}
     </ul>
   </div>
   <div className="navbar-end">
